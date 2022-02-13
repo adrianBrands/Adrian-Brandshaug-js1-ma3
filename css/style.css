@@ -1,0 +1,22 @@
+.loader-wrapper {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.loader {
+  border: 18px solid #58c775;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  animation: spin 1s ease infinite;
+  border-top: 18px solid blue;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
